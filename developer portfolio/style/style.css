@@ -129,4 +129,97 @@ nav ul li a{
 }
 .what-i-do-section p{
  text-align: center;
+
+}
+
+
+/* skills section */
+.skills-container{
+    margin: 0px 200px 130px 200px;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:25px;
+}
+.skill{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
+    padding: 30px;
+    border-radius: 5px;
+}
+.skills h4{
+    margin:30px 0px 20px 0px;
+}
+
+
+
+
+/* summary section */
+.summary-section-container{
+    margin:200px;
+   
+}
+.summary-section-container > h1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.summary-section-container > .btn{
+    display: block;
+    margin: 10px auto;
+}
+.summary-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:70px;
+}
+.summary-section .summary{
+    margin-bottom: 60px;
+}
+.summary h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.summary p{
+    margin: 10px 0;
+}
+hr{
+    display: block;
+}
+
+
+
+
+/* contact-section */
+.footer-continer{
+    padding: 200px;
+    background-color: #FFF8F3;
+}
+
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:100px;
+}
+.message-continer{
+    flex-basis: 50%;
+}
+.message-continer h1{
+    margin-bottom: 20px;
+}
+.message-continer form input,textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding:20px;
+    width: 100%;
+    resize: none;
+
+}
+
+.links p{
+    margin: 20px 0px;
 }
