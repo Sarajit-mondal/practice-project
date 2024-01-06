@@ -1,0 +1,31 @@
+
+main{
+    margin: auto 150px;
+}
+.header-section{
+    background-image: url("../banner/banner1.png");
+    height: 800px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-containt{
+position: absolute;
+top:220px;
+right: 150px;
+max-width: 525px;
+text-align: right;
+}
+.banner-containt h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    color:#FFF;
+    background-color: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border:none;
+}
