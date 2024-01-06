@@ -11,13 +11,17 @@
 }
 /* header section or nav bar */
 .header{
-  
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position:bottom right , 30px;
+    width: 100%;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 230px 0px 250px;
+    padding: 50px 220px 0px 220px;
 }
 
 nav ul{
@@ -58,12 +62,13 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 0px 0px 250px;
+    padding: 50px 0px 0px 220px;
 }
 
 .developer-image img{
-    width: 584px;
-    height: 676px;
+    margin-right: 20px;
+    margin-bottom: -5px;
+    
 }
 .details-container > p{
     margin-bottom: 20px;
