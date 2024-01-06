@@ -86,3 +86,47 @@ nav ul li a{
 .details-container p{
     max-width: 500px;
 }
+
+
+
+
+/* about me section */
+
+.about-me-section{
+    margin:130px 220px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-me-section > p{
+    margin: 30px 0px;
+}
+
+.about-information-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.informatin p{
+    font-weight: 400;
+}
+.informatin h5{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.what-i-do-section{
+    text-align: center;
+    margin: 0px 250px;
+    margin-bottom: 50px;
+}
+.what-i-do-section p{
+ text-align: center;
+}
