@@ -1,6 +1,6 @@
 
 main{
-    margin: auto 150px;
+    margin: auto 200px;
 }
 .header-section{
     background-image: url("../banner/banner1.png");
@@ -8,6 +8,7 @@ main{
     background-size: cover;
     position: relative;
 }
+
 
 .banner-containt{
 position: absolute;
@@ -25,7 +26,121 @@ text-align: right;
     font-weight: 600;
     color:#FFF;
     background-color: #F15B22;
-    padding: 20px 25px;
+    padding: 20px 30px;
     border-radius: 5px;
     border:none;
+}
+
+
+
+
+/* previous-year */
+
+.previous-year-section{
+    margin:140px 0px;
+}
+
+.previous-year-container{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    justify-content: center;
+}
+.previous-year-section h1{
+    font-size: 40px;
+    max-width: 288px;
+    font-weight: 700;
+}
+.previous-year-section p{
+    max-width: 400px;
+}
+
+
+/* my learn item */
+.section-title{
+font-size: 40px;
+text-align: center;
+font-weight: 700;
+}
+.learn-itmes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* watch benner section */
+.watch-benner-section{
+    background-image: url("../gradient2.png"),url("../watch.png");
+    background-size: cover,cover;
+    padding: 60px;
+    margin: 150px 0px;
+
+}
+.watch-benner-section .btn{
+    background-color: #FFF;
+    color:#F15B22;
+}
+.watch-benner-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 460px;
+    color:#FFF;
+}
+
+
+
+
+/* footer section */
+footer{
+    background-color: #151414;
+    width: 100%;
+   
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    gap:330px;
+    padding: 130px 200px;
+}
+
+.footer-future h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-future p{
+    max-width: 480px;
+    margin:16px 0px;
+}
+
+.socal-icon{
+    margin-top:20px;
+}
+
+.footer-subcribe{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+.footer-subcribe h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-subcribe .btn{
+    background-color: #fff;
+    color:#F15B22;
+}
+.footer-subcribe input{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color:#FFF;
+    font-size: 18px;
+    font-weight: 400;
+
 }
