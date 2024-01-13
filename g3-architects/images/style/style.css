@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,500;0,700;0,800;1,400;1,500;1,700;1,800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-primary: #727272;
+  --color-title: #131313;
+  --color-secondary: #424242;
+  --light-color: #ff900e;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.comon-p-style {
+  color: var(--color-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+img {
+  width: 100%;
+}
+
+.btn-primary {
+  padding: 20px 25px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--light-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+main {
+  width: min(75%, 1440px);
+  margin-inline: auto;
+}
+header {
+  background: rgba(204, 112, 8, 0.1);
+  padding: 50px 240px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 30px;
+}
+
+nav .logo {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-title);
+}
+
+nav ul li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.benner-contain {
+  max-width: 850px;
+  margin-inline: auto;
+  text-align: center;
+}
+.benner-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--color-title);
+}
+.benner-contain p {
+  margin: 30px auto;
+}
+.banner-image {
+  margin-top: 50px;
+}
+
+/* team section */
+.team-container {
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.team-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.team-contain {
+  max-width: 520px;
+}
+.team-contain > * {
+  margin-bottom: 30px;
+}
+.team-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+.team-title > span:first-child {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.team-title > span:last-child {
+  color: var(--light-color);
+}
+
+/* team contain end */
+
+/* features section */
+.features-container {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-contain {
+  flex-basis: 45%;
+}
+.feature-title {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+}
+.feature-contain div h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-title);
+}
+.feature-contain div {
+  margin-bottom: 50px;
+}
+
+.features-image {
+  flex-basis: 45%;
+  position: relative;
+}
+.experience {
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  background-color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  bottom: -60px;
+  left: -60px;
+}
+.experience h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.experience p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* @media quary */
+
+@media screen and (max-width: 700px) {
+  main {
+    margin: 10px auto;
+  }
+  header {
+    padding: 10px;
+  }
+
+  nav,
+  .features-container,
+  .team-container {
+    display: inline;
+    text-align: center;
+  }
+  .benner-title {
+    font-size: 3rem;
+  }
+}
