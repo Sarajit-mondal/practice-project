@@ -174,9 +174,88 @@ nav ul li a {
   font-weight: 500;
 }
 
+/* some-fact-container */
+
+.some-fact-container {
+  margin: 100px auto 40px auto;
+}
+.some-fact-title {
+  font-size: 45px;
+  color: var(--color-title);
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.some-fact-contain > p {
+  max-width: 540px;
+}
+.fact-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.fact-cards .card {
+  width: 240px;
+  height: 240px;
+  padding: 20px;
+  border: 1px solid #ff900e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.fact-cards .card img {
+  width: 45px;
+  height: 45px;
+}
+.fact-cards .card span {
+  font-size: 3rem;
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+/* sponspors-container */
+.sponspors-container {
+  margin: 150px auto;
+  align-items: center;
+}
+.sponspors-contain {
+  max-width: 540px;
+}
+.sponspors-container div h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--color-title);
+  margin-bottom: 24px;
+}
+
+.sponspors-company-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.sponspors-company-logo img {
+  width: 160px;
+  height: 50px;
+}
+
+footer {
+  width: min(75%, 1440px);
+  margin: 100px auto;
+  background-color: #fff4e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
 /* @media quary */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 576px) {
   main {
     margin: 10px auto;
   }
@@ -192,5 +271,17 @@ nav ul li a {
   }
   .benner-title {
     font-size: 3rem;
+  }
+  .fact-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .sponspors-company-logo img {
+    margin: 30px;
+  }
+  .team-image-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
